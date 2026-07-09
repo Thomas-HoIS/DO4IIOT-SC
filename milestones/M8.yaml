@@ -1,0 +1,43 @@
+id: M8
+
+title:
+  Execute Automation Commands
+
+goal:
+  Verify connectivity and execute automation commands across managed nodes
+
+learning_outcomes:
+
+  - Test communication between Master and Minion
+
+  - Execute remote commands
+
+  - Retrieve operating system information
+
+  - Verify infrastructure control
+
+commands:
+
+  - sudo salt '*' test.ping
+
+  - sudo salt '*' cmd.run 'uptime'
+
+  - sudo salt '*' grains.get os
+
+expected_result:
+
+  - test.ping returns True
+
+  - uptime command returns system uptime
+
+  - grains.get os returns operating system information
+
+evidence:
+
+  - Screenshot of test.ping output
+
+  - Screenshot of uptime output
+
+  - Screenshot of grains.get os output
+
+audit_ready: true
