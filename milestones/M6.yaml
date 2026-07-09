@@ -1,0 +1,46 @@
+id: M6
+
+title:
+  Install Salt Minion
+
+goal:
+  Configure a managed node for infrastructure automation
+
+learning_outcomes:
+
+  - Install Salt Minion
+
+  - Configure Salt Minion
+
+  - Connect Minion to Salt Master
+
+  - Verify Minion service
+
+commands:
+
+  - sudo apt install -y salt-minion
+
+  - sudo nano /etc/salt/minion
+
+  - sudo systemctl enable salt-minion
+
+  - sudo systemctl start salt-minion
+
+  - sudo systemctl status salt-minion
+
+configuration:
+
+  master:
+    localhost
+
+expected_result:
+
+  - Salt Minion service is active (running)
+
+evidence:
+
+  - Screenshot of minion configuration
+
+  - Screenshot of service status
+
+audit_ready: true
