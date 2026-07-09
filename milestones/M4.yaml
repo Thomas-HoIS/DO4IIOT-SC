@@ -1,0 +1,37 @@
+id: M4
+
+title:
+  Access Linux Environment and Baseline Evidence
+
+goal:
+  Verify OS identity and create a traceable system baseline
+
+learning_outcomes:
+
+  - Open Linux terminal
+
+  - Verify operating system information
+
+  - Update the operating system
+
+  - Capture baseline evidence
+
+commands:
+
+  - cat /etc/os-release
+
+  - uname -a
+
+  - sudo apt update
+
+  - sudo apt upgrade -y
+
+evidence:
+
+  - Screenshot of /etc/os-release
+
+  - Screenshot of uname -a
+
+  - Optional text file containing command outputs
+
+audit_ready: true
