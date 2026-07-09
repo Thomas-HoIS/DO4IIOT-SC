@@ -1,0 +1,13 @@
+id: M2
+
+title:
+  Prepare Training Environment
+
+goal:
+  Create an isolated and reproducible lab environment
+
+tools:
+
+  - VirtualBox
+
+  - Ubuntu ISO
