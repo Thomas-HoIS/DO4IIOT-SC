@@ -1,1 +1,15 @@
+id: M1
 
+title:
+  Safety-Critical Foundations
+
+goal:
+  Understand DevOps requirements in safety-critical systems
+
+learning_outcomes:
+
+  - Understand deterministic systems
+
+  - Understand reproducibility
+
+  - Understand audit readiness
