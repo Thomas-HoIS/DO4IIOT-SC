@@ -1,0 +1,37 @@
+id: M5
+
+title:
+  Install Salt Master
+
+goal:
+  Deploy a central automation controller
+
+learning_outcomes:
+
+  - Install Salt Master
+
+  - Enable Salt Master service
+
+  - Verify service status
+
+commands:
+
+  - sudo apt install -y salt-master
+
+  - sudo systemctl enable salt-master
+
+  - sudo systemctl start salt-master
+
+  - sudo systemctl status salt-master
+
+expected_result:
+
+  - Service state is active (running)
+
+evidence:
+
+  - Screenshot of Salt Master installation
+
+  - Screenshot of service status
+
+audit_ready: true
