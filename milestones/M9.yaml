@@ -1,0 +1,64 @@
+id: M9
+
+title:
+  Reproducibility and Audit Readiness
+
+goal:
+  Ensure infrastructure operations are reproducible and evidence is audit-ready
+
+learning_outcomes:
+
+  - Verify reproducible results
+
+  - Validate infrastructure consistency
+
+  - Collect audit evidence
+
+  - Demonstrate operational traceability
+
+verification_commands:
+
+  - sudo salt '*' test.ping
+
+  - sudo salt '*' grains.get os
+
+evidence:
+
+  - Screenshot of OS baseline output
+
+  - Screenshot of Salt Master status
+
+  - Screenshot of Salt Minion status
+
+  - Screenshot of accepted keys
+
+  - Screenshot of automation command outputs
+
+  - Screenshot of baseline-clean snapshot
+
+final_assignment:
+
+  - cat /etc/os-release
+
+  - uname -a
+
+  - sudo systemctl status salt-master
+
+  - sudo systemctl status salt-minion
+
+  - sudo salt-key -L
+
+  - sudo salt '*' test.ping
+
+  - sudo salt '*' cmd.run 'hostname'
+
+  - sudo salt '*' grains.get os
+
+submission:
+
+  - Audit evidence screenshots
+
+audit_ready: true
+
+expected_result:
+
