@@ -1,0 +1,25 @@
+id: M3
+
+title:
+  Create VM and Install Ubuntu
+
+goal:
+  Build a reproducible Ubuntu baseline
+
+learning_outcomes:
+
+  - Create VM
+
+  - Configure resources
+
+  - Install Ubuntu
+
+  - Create baseline snapshot
+
+evidence:
+
+  - Screenshot of VM
+
+  - Screenshot of Ubuntu installation
+
+  - Screenshot of snapshot
