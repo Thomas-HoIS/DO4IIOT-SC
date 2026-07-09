@@ -1,0 +1,33 @@
+scene_id: M1_SCENE_01
+
+milestone: M1
+
+title:
+  Safety-Critical Foundations
+
+objective:
+  Understand deterministic systems
+
+overlay:
+
+  title:
+    Deterministic Systems
+
+  text:
+    Safety-critical systems must behave predictably.
+
+checkpoint:
+
+  question:
+    Why is determinism important?
+
+  answers:
+
+    - Predictable behavior
+
+    - Faster internet
+
+    - Random outcomes
+
+  correct:
+    1
