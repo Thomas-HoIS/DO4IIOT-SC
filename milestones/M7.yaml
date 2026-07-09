@@ -1,0 +1,41 @@
+id: M7
+
+title:
+  Establish Secure Trust
+
+goal:
+  Authenticate nodes using cryptographic keys
+
+learning_outcomes:
+
+  - List Salt Minion keys
+
+  - Accept Salt Minion keys
+
+  - Verify trusted communication
+
+commands:
+
+  - sudo salt-key -L
+
+  - sudo salt-key -A
+
+expected_result:
+
+  - Minion key appears in accepted keys list
+
+  - Trust relationship established
+
+evidence:
+
+  - Screenshot of salt-key -L output
+
+  - Screenshot showing accepted key
+
+audit_ready: true
+
+security:
+
+  - Cryptographic authentication
+
+  - Trusted node communication
